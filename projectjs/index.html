@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/gallery.js" defer></script>
+</head>
+
+<body onload="addTabFocus()">
+	
+	<div id="image">
+		Hover over an image below to display here.
+	</div>
+	
+	<img class="preview" src="images/arielview.jpg" alt="Aerial View of the school" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" src="images/corridor.jpg" alt="School Corridor" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" src="images/myschool.jpg" alt="School building" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" src="images/quadrangle.jpg" alt="Quadrangle" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" src="images/swimmingpool.jpg" alt="Swimming Pool" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+	<img class="preview" src="images/logo.jfif" alt="School logo" 
+	onmouseover="upDate(this)" onmouseout="unDo()" 
+	onfocus="upDate(this)" onblur="unDo()">
+
+</body>
+</html>
